@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  width: 720px;
+  max-height: 75%;
+  border-radius: 250px;
+  filter: blur(0px);
+}
+
+.loading {
+  position: absolute;
+  z-index: +1;
+  font-size: 50px;
+  color: #ffffff;
+}
